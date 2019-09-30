@@ -2,6 +2,9 @@
 
 html {
 	background: rgb(32, 37, 52);
+	background-image: url("/images/react-logo.svg");
+	background-position: 0 0;
+	background-repeat: space;
 }
 
 body {
