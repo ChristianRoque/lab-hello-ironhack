@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
+import Navbar from './Navbar';
+import Content from './Content';
+import InfoBox from './InfoBox';
 
 class App extends Component {
 	render() {
 		return (
-			<div className="App">
-				<h1> Hello Ironhackers! </h1>
+			<div>
+				<Navbar />
+				<Content />
+				<InfoBox />
 			</div>
 		);
 	}

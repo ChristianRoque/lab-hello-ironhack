@@ -1,4 +1,61 @@
+/* GENERAL %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+html {
+	background: rgb(32, 37, 52);
+}
+
+body {
+	margin: 0 0 0 0;
+}
+
 .App {
 	margin: 1rem;
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.navbar-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1.5% 4%;
+}
+
+/* Content %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.content-container {
+	display: flex;
+}
+
+.content-subcontainer {
+	width: 50%;
+	margin: 5% 3% 5% 5%;
+}
+
+.content-subcontainer div h1 {
+	font-size: 6em;
+	color: white;
+}
+
+.content-p-1 {
+	color: gray;
+	font-size: 1.5em;
+	margin: 0 37% 0 0;
+}
+
+/* Boxes Container */
+
+.info {
+	background: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+.info-items {
+	display: flex;
+}
+
+.info-container {
+	margin: 10% 0% 3% 0%;
 }
